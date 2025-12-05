@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    height: auto;
+}
+.line1{
+    background-color: #161616;
+    height: 30px;
+}
+.line1>ol{
+    display: flex;
+    list-style-type: none;
+    color: #d8d8d8;
+    font-size: 12px;
+    height: 100%;
+    justify-content: flex-end;
+}
+.line1>ol>li{
+    padding: 0px, 10px;
+    display: flex;
+    align-items: center;
+}
+a{
+    margin-left: 6px;
+    text-decoration: none;
+    color: inherit;
+}
+.line2{
+    background-color: black;
+}
